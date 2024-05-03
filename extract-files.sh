@@ -55,7 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        system/lib64/libcamera_algoup_jni.xiaomi.so|system/lib64/libcamera_mianode_jni.xiaomi.so|system/lib64/libcamera_ispinterface_jni.xiaomi.so)
+        system_ext/lib64/libcamera_algoup_jni.xiaomi.so|\
+        system_ext/lib64/libcamera_mianode_jni.xiaomi.so|\
+        system_ext/lib64/libcamera_ispinterface_jni.xiaomi.so)
             "${PATCHELF}" --add-needed "libgui_shim_miuicamera.so" "${2}"
             ;;
     esac

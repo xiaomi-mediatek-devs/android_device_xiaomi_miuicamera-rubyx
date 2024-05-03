@@ -9,7 +9,7 @@ $(call inherit-product, vendor/xiaomi/miuicamera-ruby/miuicamera-ruby-vendor.mk)
 
 # Priv-app permission
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
+    $(LOCAL_PATH)/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-miuicamera.xml
 
 # Shims
 PRODUCT_PACKAGES += \
@@ -21,4 +21,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Sysconfig
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/miuicamera-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-allowlist.xml
+    $(LOCAL_PATH)/configs/miuicamera-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/miuicamera-hiddenapi-package-allowlist.xml

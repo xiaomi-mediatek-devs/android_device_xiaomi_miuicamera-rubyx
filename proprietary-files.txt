@@ -1,9 +1,10 @@
-# All unpinned blobs below are extracted from ruby V14.0.6.0.TMOMIXM
+# All unpinned blobs below are extracted from ruby V816.0.3.0.UMOMIXM
 
-product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk|3a4f77be73adc370090e695e8d72481d35cf143c
+product/priv-app/MiuiCamera/MiuiCamera.apk:system_ext/priv-app/MiuiCamera/MiuiCamera.apk|edc40b2ba3a991829162b45e8bf87ecfc371c27a
 system/etc/public.libraries-xiaomi.txt
-system/lib64/libcamera_algoup_jni.xiaomi.so
-system/lib64/libcamera_mianode_jni.xiaomi.so
-system/lib64/libcamera_ispinterface_jni.xiaomi.so
-system/lib64/libmtkisp_metadata_sys.so
-system/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
+system_ext/lib64/libcamera_algoup_jni.xiaomi.so
+system_ext/lib64/libcamera_mianode_jni.xiaomi.so
+system_ext/lib64/libcamera_ispinterface_jni.xiaomi.so
+system_ext/lib64/libmtkisp_metadata_sys.so
+system_ext/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so
