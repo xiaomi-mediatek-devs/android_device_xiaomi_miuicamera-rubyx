@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/miuicamera-ruby/miuicamera-ruby-vendor.mk)
+$(call inherit-product, vendor/xiaomi/miuicamera-rubyx/miuicamera-rubyx-vendor.mk)
 
 # AIDL Interfaces
 PRODUCT_PACKAGES += \
