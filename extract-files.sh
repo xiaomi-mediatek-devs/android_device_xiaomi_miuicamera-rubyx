@@ -61,6 +61,10 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system_ext/priv-app/MiuiCamera/MiuiCamera.apk)
+            [ "$2" = "" ] && return 0
+            apktool_patch "${2}" "${MY_DIR}/blob-patches/MIUICamera.patch"
+            ;;
         system_ext/lib64/libcamera_algoup_jni.xiaomi.so|\
         system_ext/lib64/libcamera_mianode_jni.xiaomi.so|\
         system_ext/lib64/libcamera_ispinterface_jni.xiaomi.so)
