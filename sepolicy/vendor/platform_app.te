@@ -1,5 +1,7 @@
 allow platform_app vendor_camera_data_file:dir { append map r_dir_perms write };
 allow platform_app vendor_camera_data_file:file { getattr open read };
 
+allow platform_app app_data_file:file execute;
+
 # Properties
 get_prop(platform_app, vendor_camera_prop)
